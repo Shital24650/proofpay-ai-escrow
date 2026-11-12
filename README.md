@@ -6,9 +6,8 @@ Built for the **PayPal AI Hackathon**. PayPal sandbox only. No cryptocurrency.
 
 | | |
 |---|---|
-| Live demo | `<DEPLOYED_URL>` |
-| Demo video (under 3 min) | `<YOUTUBE_URL>` |
-| Devpost | `<DEVPOST_PROJECT_URL>` |
+| Live demo | ``https://proofpay.ai.studio/ |
+| Demo video (under 3 min) | `https://youtu.be/cIyjly1gjQw?si=udWPeTJJ-qwm_Qyi` |
 | License | MIT |
 
 ---
@@ -162,6 +161,7 @@ Never commit `.env`. The repo ships `.env.example` only.
 - **No dispute path.** There is no human override, and a buyer could still open a PayPal dispute after capture.
 - **Buyer approval is human.** PayPal requires the buyer to approve the payment, so an agent cannot complete funding alone.
 - **In-memory storage.** Deals are lost on server restart.
+- **AI quota.** If the Gemini API quota is exhausted, the app falls back to generic criteria and code-only checks, while PayPal authorization, capture, void and payout run unchanged.
 - **Sandbox only.** No real money moves.
 - **Demo shortcut.** A "Simulate Sandbox Authorization" button marks a deal as authorized without a PayPal hold, so the flow can be tried without a PayPal login. A run that uses it is not a real PayPal hold. Use the PayPal approval path for any run you want to treat as real.
 
