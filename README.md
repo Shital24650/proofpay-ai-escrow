@@ -12,6 +12,8 @@ Built for the **PayPal AI Hackathon**. PayPal sandbox only. No cryptocurrency.
 | License | MIT |
 
 ---
+   ![ProofPay architecture](docs/proofpay-architecture.png)
+
 
 ## The problem
 
