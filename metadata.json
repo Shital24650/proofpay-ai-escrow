@@ -1,0 +1,7 @@
+{
+  "name": "ProofPay",
+  "description": "AI-verified escrow on PayPal sandbox with objective criteria generation and automated settlement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
