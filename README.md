@@ -6,8 +6,8 @@ Built for the **PayPal AI Hackathon**. PayPal sandbox only. No cryptocurrency.
 
 | | |
 |---|---|
-| Live demo | `https://proofpay.ai.studio/` |
-| Demo video (under 3 min) | `https://youtu.be/cIyjly1gjQw?si=udWPeTJJ-qwm_Qyi` |
+| Live demo | https://proofpay.ai.studio/ |
+| Demo video (under 3 min) | https://youtu.be/cIyjly1gjQw?si=udWPeTJJ-qwm_Qyi |
 | License | MIT |
 
 ---
